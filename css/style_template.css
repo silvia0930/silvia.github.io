@@ -73,7 +73,9 @@ footer a:hover {
 }
 
 .splash img {
-   border-radius: 50%;
+   border-radius: 30%;
+   box-shadow: 0 2px 4px rgba(68,23,82,0.8);
+   margin: 0.8rem 0;
 }
 
 .splash p {
@@ -93,9 +95,11 @@ hr {
 
 /* Sections */
 section {
-   
     padding: 2rem;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 /* Section Headings */
@@ -117,7 +121,8 @@ section h3 {
 
 .education-text {
     line-height: 1.6;
-    background-color:white;
+    color: #441752;
+    font-weight: bold;
 }
 /* Paragraph Styles */
 section p {
